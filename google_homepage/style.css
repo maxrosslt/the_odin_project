@@ -1,0 +1,91 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#rsrc {
+    position: relative;
+    top: 150px;
+    left: 500px;
+    width: 700px;
+}
+
+#settings {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: ghostwhite;
+}
+
+#about {
+    position: absolute;
+    bottom: -150px;
+    left: 30px;
+    width: 600px;
+    font-size: 10px;
+}
+
+#searchs {
+    position: relative;
+    width: 700px;
+    top: 170px;
+    left: 330px;
+}
+
+#searcha {
+    position: relative;
+    padding-left: 150px;
+    bottom: 22px;
+}
+
+#searchb {
+    position: relative;
+    padding-left: 380px;
+}
+
+a {
+    text-decoration: none;
+    margin: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:link {
+    color: blue
+}
+
+a:link {
+    color: purple
+}
+
+#settings ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#settings a {
+    display: block;
+    padding: 2px;
+    font-size: 12px;
+    text-decoration: none;
+    border-right: black;
+}
+
+#settings li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-right: black;
+}
+
+#settings li a:hover {
+    background-color: lightskyblue;
+}
+
+#settings li:last-child {
+    border-right: none;
+}
